@@ -1,15 +1,61 @@
+* {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.tabs {
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+    height: 100%;
+    min-height: 275px;
+}
+
+.btns {
+    display: flex;
+}
+
+.tabs button {
+    border: 0;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+}
+
+#tab-one { 
+    border-bottom: 2px solid blue;
+}
+
+#tab-two, #tab-three, #tab-four {
+    color: rgba(128, 128, 128, 0.822);
+}
+
 .tab-one {
     display: block;
+    border: 0;
+    padding: 20px;
 }
 
 .tab-two {
     display: none;
+    border: 0;
+    padding: 20px;
 }
 
 .tab-three {
     display: none;
+    border: 0;
+    padding: 20px;
 }
 
 .tab-four {
     display: none;
+    border: 0;
+    padding: 20px;
 }
